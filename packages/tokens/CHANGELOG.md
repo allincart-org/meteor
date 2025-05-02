@@ -1,4 +1,4 @@
-# @shopware-ag/meteor-tokens
+# @allincart-ag/meteor-tokens
 
 ## 1.1.0
 

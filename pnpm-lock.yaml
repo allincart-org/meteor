@@ -67,10 +67,10 @@ importers:
       '@shopware-ag/entity-schema-types':
         specifier: ^5.8.6
         version: 5.8.11
-      '@shopware-ag/meteor-admin-sdk':
+      '@allincart-ag/meteor-admin-sdk':
         specifier: workspace:*
         version: link:../../packages/admin-sdk
-      '@shopware-ag/meteor-component-library':
+      '@allincart-ag/meteor-component-library':
         specifier: workspace:*
         version: link:../../packages/component-library
       '@vitejs/plugin-vue':
@@ -125,10 +125,10 @@ importers:
 
   examples/admin-sdk-plugin/src/Resources/app/administration:
     dependencies:
-      '@shopware-ag/meteor-admin-sdk':
+      '@allincart-ag/meteor-admin-sdk':
         specifier: workspace:*
         version: link:../../../../../../packages/admin-sdk
-      '@shopware-ag/meteor-component-library':
+      '@allincart-ag/meteor-component-library':
         specifier: workspace:*
         version: link:../../../../../../packages/component-library
       regenerator-runtime:
@@ -175,7 +175,7 @@ importers:
 
   examples/nuxt-app:
     dependencies:
-      '@shopware-ag/meteor-component-library':
+      '@allincart-ag/meteor-component-library':
         specifier: workspace:*
         version: link:../../packages/component-library
       nuxt:
@@ -200,7 +200,7 @@ importers:
 
   packages/admin-sdk:
     dependencies:
-      '@shopware-ag/meteor-component-library':
+      '@allincart-ag/meteor-component-library':
         specifier: workspace:*
         version: link:../component-library
       localforage:
@@ -294,10 +294,10 @@ importers:
       '@floating-ui/vue':
         specifier: ^1.1.6
         version: 1.1.6(vue@3.5.13(typescript@5.7.3))
-      '@shopware-ag/meteor-icon-kit':
+      '@allincart-ag/meteor-icon-kit':
         specifier: workspace:*
         version: link:../icon-kit
-      '@shopware-ag/meteor-tokens':
+      '@allincart-ag/meteor-tokens':
         specifier: workspace:*
         version: link:../tokens
       '@storybook/addon-a11y':
@@ -418,7 +418,7 @@ importers:
       '@eslint/js':
         specifier: ^9.20.0
         version: 9.21.0
-      '@shopware-ag/stylelint-plugin-meteor':
+      '@allincart-ag/stylelint-plugin-meteor':
         specifier: workspace:*
         version: link:../stylelint-plugin-meteor
       '@storybook/addon-essentials':
@@ -590,7 +590,7 @@ importers:
       '@eslint/js':
         specifier: ^9.20.0
         version: 9.21.0
-      '@shopware-ag/meteor-prettier-config':
+      '@allincart-ag/meteor-prettier-config':
         specifier: workspace:*
         version: link:../prettier-config
       '@supercharge/promise-pool':
@@ -656,14 +656,14 @@ importers:
 
   packages/stylelint-plugin-meteor:
     dependencies:
-      '@shopware-ag/meteor-tokens':
+      '@allincart-ag/meteor-tokens':
         specifier: workspace:*
         version: link:../tokens
       stylelint:
         specifier: ^16.10.0
         version: 16.10.0(typescript@5.7.3)
     devDependencies:
-      '@shopware-ag/meteor-prettier-config':
+      '@allincart-ag/meteor-prettier-config':
         specifier: workspace:*
         version: link:../prettier-config
       prettier:

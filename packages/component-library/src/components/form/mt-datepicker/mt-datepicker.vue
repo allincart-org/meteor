@@ -109,7 +109,7 @@ export default defineComponent({
     locale: {
       type: String as PropType<string>,
       required: false,
-      default: "de",
+      default: "zh",
     },
 
     /**
@@ -129,7 +129,7 @@ export default defineComponent({
     timeZone: {
       type: String as PropType<string>,
       required: false,
-      default: "UTC",
+      default: "Asia/Shanghai",
     },
 
     /**

@@ -1,10 +1,10 @@
 {
-  "name": "@shopware-ag/meteor-prettier-config",
+  "name": "@allincart-ag/meteor-prettier-config",
   "version": "1.0.0",
-  "description": "Prettier configuration for Shopware projects",
+  "description": "Prettier configuration for Allincart projects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shopware/meteor"
+    "url": "https://github.com/allincart-org/meteor"
   },
   "type": "module",
   "exports": "./index.js",

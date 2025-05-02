@@ -1013,39 +1013,38 @@ export default defineComponent({
             tooltip: "Reload",
           },
         },
-        de: {
-          itemsPerPage: "Einträge pro Seite",
+        zh: {
+          itemsPerPage: "每页条目",
           filter: {
-            numberOfResults:
-              "Keine Einträge gefunden | Ein Eintrag gefunden | {n} Einträge gefunden",
-            addFilter: "Filter hinzufügen",
-            fetchingFilteredResults: "Filterergebnisse werden geladen...",
+            numberOfResults: "未找到条目 | 找到 1 个条目 | 找到 {n} 个条目",
+            addFilter: "添加过滤器",
+            fetchingFilteredResults: "正在加载过滤结果...",
           },
           columnSettings: {
-            sortAscending: "Aufsteigend sortieren",
-            sortDescending: "Absteigend sortieren",
-            hideColumn: "Spalte ausblenden",
+            sortAscending: "升序排序",
+            sortDescending: "降序排序",
+            hideColumn: "隐藏列",
           },
           addColumnIndicator: {
-            popoverTitle: "Spalteninhalt hinzufügen",
-            tooltipMessage: "Spalte hinzufügen",
+            popoverTitle: "添加列内容",
+            tooltipMessage: "添加列",
           },
           contextButtons: {
-            edit: "Bearbeiten",
-            delete: "Löschen",
+            edit: "编辑",
+            delete: "删除",
           },
           emptyState: {
-            headline: "Füge dein erstes Element hinzu",
-            description: "Aktuell sind noch keine Elemente vorhanden.",
+            headline: "添加你的第一个元素",
+            description: "当前没有任何元素。",
           },
           bulkEdit: {
-            itemsSelected: "1 Element ausgewählt | {n} Elemente ausgewählt",
-            edit: "Bearbeiten",
-            delete: "Löschen",
+            itemsSelected: "选择了 1 个元素 | 选择了 {n} 个元素",
+            edit: "编辑",
+            delete: "删除",
             more: "...",
           },
           reload: {
-            tooltip: "Neu laden",
+            tooltip: "重新加载",
           },
         },
       },
@@ -2161,12 +2160,15 @@ $tableCellPadding: $tableCellPaddingTop $tableCellPaddingRight $tableCellPadding
   .mt-data-table__table-wrapper[data-scroll-top] ~ .mt-data-table__scroll-shadow-top {
     opacity: 1;
   }
+
   .mt-data-table__table-wrapper[data-scroll-right] ~ .mt-data-table__scroll-shadow-right {
     opacity: 1;
   }
+
   .mt-data-table__table-wrapper[data-scroll-bottom] ~ .mt-data-table__scroll-shadow-bottom {
     opacity: 1;
   }
+
   .mt-data-table__table-wrapper[data-scroll-left] ~ .mt-data-table__scroll-shadow-left {
     opacity: 1;
   }
@@ -2446,6 +2448,7 @@ $tableCellPadding: $tableCellPaddingTop $tableCellPaddingRight $tableCellPadding
     box-shadow: inset $dropzone-highlight-width 0px $dropzone-highlight-width
       $dropzone-highlight-negative-width $color-shopware-brand-900;
   }
+
   .mt-data-table__table-head-dropzone-after {
     right: 0;
     box-shadow: inset $dropzone-highlight-negative-width 0px $dropzone-highlight-width

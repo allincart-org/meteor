@@ -1,10 +1,10 @@
 {
-  "name": "@shopware-ag/meteor-tokens",
+  "name": "@allincart-ag/meteor-tokens",
   "version": "1.1.0",
-  "description": "Design Tokens for the Meteor Design System used at shopware",
+  "description": "Design Tokens for the Meteor Design System used at allincart",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shopware/meteor.git"
+    "url": "git+ssh://git@github.com:allincart-org/meteor.git"
   },
   "license": "MIT",
   "author": "shopware AG",

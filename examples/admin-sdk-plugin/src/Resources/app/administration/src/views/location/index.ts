@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
-import { location } from "@shopware-ag/meteor-admin-sdk";
-import { MtButton, MtNumberField } from '@shopware-ag/meteor-component-library';
+import { location } from "@allincart-ag/meteor-admin-sdk";
+import { MtButton, MtNumberField } from '@allincart-ag/meteor-component-library';
 
 export default defineComponent({
     components: {

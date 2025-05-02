@@ -1,9 +1,9 @@
 {
-  "name": "@shopware-ag/stylelint-plugin-meteor",
+  "name": "@allincart-ag/stylelint-plugin-meteor",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shopware/meteor.git"
+    "url": "git+ssh://git@github.com:allincart-org/meteor.git"
   },
   "main": "./dist/commonjs/index.js",
   "files": [
@@ -19,7 +19,7 @@
   "license": "MIT",
   "description": "The stylelint plugin for the Meteor Design System",
   "peerDependencies": {
-    "@shopware-ag/meteor-tokens": "workspace:*",
+    "@allincart-ag/meteor-tokens": "workspace:*",
     "stylelint": "^16.10.0"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "stylelint-test-rule-node": "^0.3.0",
     "tshy": "^3.0.2",
     "tsx": "^4.7.0",
-    "@shopware-ag/meteor-prettier-config": "workspace:*"
+    "@allincart-ag/meteor-prettier-config": "workspace:*"
   },
   "type": "module",
   "tshy": {

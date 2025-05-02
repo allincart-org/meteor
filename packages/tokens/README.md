@@ -3,7 +3,7 @@ This repository contains the Design Tokens for the Meteor Design System at shopw
 ## Installation
 
 ```sh
-npm install @shopware-ag/meteor-tokens
+npm install @allincart-ag/meteor-tokens
 ```
 
 ## Usage
@@ -19,10 +19,10 @@ for the Shopware 6 Administration.
 Import the CSS files that contain the corresponding tokens.
 
 ```js
-import '@shopware-ag/meteor-tokens/administration/light.css';
+import '@allincart-ag/meteor-tokens/administration/light.css';
 
 // If you want to support dark mode
-import '@shopware-ag/meteor-tokens/administration/dark.css';
+import '@allincart-ag/meteor-tokens/administration/dark.css';
 ```
 
 Now, you're able to make use of the Design Tokens trough

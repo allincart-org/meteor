@@ -372,9 +372,9 @@ export default defineComponent({
           increaseButton: "Increase",
           decreaseButton: "Decrease",
         },
-        de: {
-          increaseButton: "Erhöhen",
-          decreaseButton: "Verringern",
+        zh: {
+          increaseButton: "增加",
+          decreaseButton: "减少",
         },
       },
     });

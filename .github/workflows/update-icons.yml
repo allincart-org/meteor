@@ -33,7 +33,7 @@ jobs:
         run: npx @puppeteer/browsers install chrome
 
       - name: Update icons
-        run: pnpm --filter @shopware-ag/meteor-icon-kit run start
+        run: pnpm --filter @allincart-ag/meteor-icon-kit run start
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4

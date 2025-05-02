@@ -9,8 +9,8 @@
 - Updated dependencies [f4ed7d0]
 - Updated dependencies [0f5575d]
 - Updated dependencies [a1c2414]
-  - @shopware-ag/meteor-tokens@1.1.0
-  - @shopware-ag/meteor-icon-kit@5.5.0
+  - @allincart-ag/meteor-tokens@1.1.0
+  - @allincart-ag/meteor-icon-kit@5.5.0
 
 ## 4.10.0
 
@@ -138,7 +138,7 @@
 - 1b0b620: Add missing placeholder to mt-colorpicker
 - 6cc3876: Focus colorpicker when clicking on its label
 - Updated dependencies [7abaa5a]
-  - @shopware-ag/meteor-tokens@1.0.0
+  - @allincart-ag/meteor-tokens@1.0.0
 
 ## 4.4.0
 
@@ -239,15 +239,15 @@
 
   ```js
   // Some JavaScript file: index.js
-  import "@shopware-ag/meteor-component-library/dist/styles.css";
+  import "@allincart-ag/meteor-component-library/dist/styles.css";
   ```
 
   You now need to update that one import to the following two imports:
 
   ```js
   // Some JavaScript file: index.js
-  import "@shopware-ag/meteor-component-library/styles.css"; // Note: this path is different from the old one
-  import "@shopware-ag/meteor-component-library/font.css";
+  import "@allincart-ag/meteor-component-library/styles.css"; // Note: this path is different from the old one
+  import "@allincart-ag/meteor-component-library/font.css";
   ```
 
   If you want to load the font by yourself, you can do that.
@@ -368,7 +368,7 @@
 - ebe7a33: Use semantic border radius token for overlays
 - bebea2e: Use button border radius token for buttons and segmented control
 - Updated dependencies [e644cef]
-  - @shopware-ag/meteor-tokens@0.3.0
+  - @allincart-ag/meteor-tokens@0.3.0
 
 ## 3.11.0
 
@@ -425,7 +425,7 @@
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
-  - @shopware-ag/meteor-tokens@0.2.0
+  - @allincart-ag/meteor-tokens@0.2.0
 
 ## 3.8.0
 
@@ -513,7 +513,7 @@
 
 - 7ff2788: Remove unnecessary left border in data table
 - Updated dependencies [8443590]
-  - @shopware-ag/meteor-tokens@0.1.0
+  - @allincart-ag/meteor-tokens@0.1.0
 
 ## 3.3.0
 

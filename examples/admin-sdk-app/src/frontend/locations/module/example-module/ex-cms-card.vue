@@ -11,8 +11,8 @@
 </template>
 
 <script setup lang="ts">
-import { window } from '@shopware-ag/meteor-admin-sdk';
-import { SwCard } from '@shopware-ag/meteor-component-library';
+import { window } from '@allincart-ag/meteor-admin-sdk';
+import { SwCard } from '@allincart-ag/meteor-component-library';
 
 function goToCmsModule() {
   window.routerPush({

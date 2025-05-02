@@ -48,7 +48,7 @@
 
           <!-- Dynamically pass all slots -->
           <template #[name]="bindings" v-for="(_, name) in slots">
-            <slot :name="name" v-bind="bindings"> </slot>
+            <slot :name="name" v-bind="bindings"></slot>
           </template>
         </mt-text-editor-toolbar>
       </component>
@@ -177,13 +177,13 @@ const { t } = useI18n({
         },
       },
     },
-    de: {
+    zh: {
       "mt-text-editor": {
         buttons: {
-          "toggle-code": "Codeansicht umschalten",
+          "toggle-code": "切换代码视图",
         },
         footer: {
-          characters: "{characters} Zeichen",
+          characters: "{characters} 个字符",
         },
       },
     },
@@ -434,6 +434,7 @@ label {
   padding: var(--scale-size-16);
 
   /* List styles */
+
   ul,
   ol {
     padding: 0 var(--scale-size-16);
@@ -557,6 +558,7 @@ label {
   }
 
   /* Table-specific styling */
+
   table {
     border-collapse: collapse;
     margin: 0;

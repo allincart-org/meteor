@@ -1,11 +1,11 @@
-# @shopware-ag/stylelint-plugin-meteor
+# @allincart-ag/stylelint-plugin-meteor
 
 ## 2.0.0
 
 ### Patch Changes
 
 - Updated dependencies [f4ed7d0]
-  - @shopware-ag/meteor-tokens@1.1.0
+  - @allincart-ag/meteor-tokens@1.1.0
 
 ## 1.1.0
 
@@ -23,7 +23,7 @@
 ### Patch Changes
 
 - Updated dependencies [7abaa5a]
-  - @shopware-ag/meteor-tokens@1.0.0
+  - @allincart-ag/meteor-tokens@1.0.0
 
 ## 0.2.0
 

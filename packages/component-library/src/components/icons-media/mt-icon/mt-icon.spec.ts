@@ -69,7 +69,7 @@ describe("mt-icon", () => {
     expect(screen.getByTestId(`mt-icon__${iconName}`)).not.toBeNull();
     expect(consoleSpy).toHaveBeenCalledWith(
       expect.objectContaining({
-        message: 'Unknown variable dynamic import: ../../../../node_modules/@shopware-ag/meteor-icon-kit/icons/regular/does-not-exist.svg'
+        message: 'Unknown variable dynamic import: ../../../../node_modules/@allincart-ag/meteor-icon-kit/icons/regular/does-not-exist.svg'
       })
     );
   });

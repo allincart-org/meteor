@@ -260,9 +260,9 @@ export default defineComponent({
             apply: "Apply",
           },
         },
-        de: {
+        zh: {
           "mt-colorpicker": {
-            apply: "Anwenden",
+            apply: "应用",
           },
         },
       },

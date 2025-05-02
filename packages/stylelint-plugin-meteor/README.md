@@ -7,14 +7,14 @@ This stylelint plugin adds a handful of rules for the Meteor Design System.
 Add this package to your project:
 
 ```sh
-npm i -D @shopware-ag/stylelint-plugin-meteor
+npm i -D @allincart-ag/stylelint-plugin-meteor
 ```
 
 Add this package to your stylelint config.
 
 ```json
 {
-  "plugins": ["@shopware-ag/stylelint-plugin-meteor"],
+  "plugins": ["@allincart-ag/stylelint-plugin-meteor"],
   "rules": {
     "meteor/prefer-sizing-token": [
       true,

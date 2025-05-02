@@ -16,21 +16,21 @@ You need a working **Vue 3 application** with the **i18n plugin** for the transl
 Add this package to your project:
 
 ```cli
-npm i @shopware-ag/meteor-component-library
+npm i @allincart-ag/meteor-component-library
 ```
 
 Import the `style.css` for general styling and `font.css` for the Inter font in the root file of your application or in you root styling file.
 
 ```js
-import "@shopware-ag/meteor-component-library/styles.css";
-import "@shopware-ag/meteor-component-library/font.css";
+import "@allincart-ag/meteor-component-library/styles.css";
+import "@allincart-ag/meteor-component-library/font.css";
 ```
 
 Each component works independently and can be imported directly from the root like this:
 
 ```html
 <script>
-  import { MtButton } from "@shopware-ag/meteor-component-library";
+  import { MtButton } from "@allincart-ag/meteor-component-library";
 
   export default {
     components: {

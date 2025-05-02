@@ -83,14 +83,14 @@ const { t } = useI18n({
         label: "Link",
       },
     },
-    de: {
+    zh: {
       "mt-text-editor-toolbar-button-link": {
-        modalTitle: "Link einfügen/bearbeiten",
-        cancel: "Abbrechen",
-        applyLink: "Link anwenden",
-        openInNewTab: "In neuem Tab öffnen",
-        linkUrl: "Link URL",
-        label: "Link",
+          "modalTitle": "插入/编辑链接",
+          "cancel": "取消",
+          "applyLink": "应用链接",
+          "openInNewTab": "在新标签页中打开",
+          "linkUrl": "链接地址",
+          "label": "链接"
       },
     },
   },

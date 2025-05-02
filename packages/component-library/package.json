@@ -1,9 +1,9 @@
 {
-  "name": "@shopware-ag/meteor-component-library",
+  "name": "@allincart-ag/meteor-component-library",
   "version": "4.10.1",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shopware/meteor.git"
+    "url": "git+ssh://git@github.com:allincart-org/meteor.git"
   },
   "author": "shopware AG",
   "main": "dist/common/index.js",
@@ -43,8 +43,8 @@
     "@codemirror/lang-html": "^6.4.9",
     "@floating-ui/dom": "^1.4.3",
     "@floating-ui/vue": "^1.1.6",
-    "@shopware-ag/meteor-icon-kit": "workspace:*",
-    "@shopware-ag/meteor-tokens": "workspace:*",
+    "@allincart-ag/meteor-icon-kit": "workspace:*",
+    "@allincart-ag/meteor-tokens": "workspace:*",
     "@storybook/addon-a11y": "^8.6.12",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/vue": "^8.1.0",
@@ -86,7 +86,7 @@
   "devDependencies": {
     "@csstools/stylelint-formatter-github": "^1.0.0",
     "@eslint/js": "^9.20.0",
-    "@shopware-ag/stylelint-plugin-meteor": "workspace:*",
+    "@allincart-ag/stylelint-plugin-meteor": "workspace:*",
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-interactions": "^8.6.12",
     "@storybook/addon-links": "^8.6.12",

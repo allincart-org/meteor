@@ -46,9 +46,9 @@ const { t } = useI18n({
       tooltipRemoveInheritance: "Remove inheritance",
       tooltipRestoreInheritance: "Restore inheritance",
     },
-    de: {
-      tooltipRemoveInheritance: "Vererbung entfernen",
-      tooltipRestoreInheritance: "Vererbung wiederherstellen",
+    zh: {
+      tooltipRemoveInheritance: "移除继承",
+      tooltipRestoreInheritance: "恢复继承",
     },
   },
 });
