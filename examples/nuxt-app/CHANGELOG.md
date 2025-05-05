@@ -1,5 +1,16 @@
 # nuxt-app
 
+## 0.0.34
+
+### Patch Changes
+
+- Updated dependencies [d1d9b9b]
+- Updated dependencies [fc0788e]
+- Updated dependencies [d1d9b9b]
+- Updated dependencies [e85641f]
+- Updated dependencies [d1d9b9b]
+  - @allincart-ag/meteor-component-library@4.11.0
+
 ## 0.0.33
 
 ### Patch Changes
