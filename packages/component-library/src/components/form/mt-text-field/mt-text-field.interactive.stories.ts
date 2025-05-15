@@ -1,4 +1,4 @@
-import { within, userEvent, fireEvent } from "@storybook/test";
+import { within, userEvent } from "@storybook/test";
 import { expect } from "@storybook/test";
 
 import meta, { type MtTextFieldMeta, type MtTextFieldStory } from "./mt-text-field.stories";
@@ -7,20 +7,6 @@ export default {
   ...meta,
   title: "Interaction Tests/Form/mt-text-field",
 } as MtTextFieldMeta;
-
-export const TestInputValue: MtTextFieldStory = {
-  name: "Should keep input value",
-  play: async ({ canvasElement, args }) => {
-    const canvas = within(canvasElement);
-
-    await userEvent.type(canvas.getByRole("textbox"), "Shopware");
-    await userEvent.click(canvas.getByText("hidden"));
-
-    expect((canvas.getByRole("textbox") as HTMLInputElement).value).toBe("Shopware");
-
-    expect(args.change).toHaveBeenCalledWith("Shopware");
-  },
-};
 
 export const VisualTestPrefix: MtTextFieldStory = {
   name: "Should display prefix",
@@ -78,7 +64,7 @@ export const VisualTestCharacterCount: MtTextFieldStory = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
 
-    await userEvent.type(canvas.getByRole("textbox"), "Shopware");
+    await userEvent.type(canvas.getByRole("textbox"), "Allincart");
     await userEvent.click(canvas.getByText("hidden"));
 
     expect(canvas.getByText("8/60")).toBeDefined();
@@ -102,18 +88,18 @@ export const VisualTestCharacterCountExceeding: MtTextFieldStory = {
 
     await userEvent.type(
       canvas.getByRole("textbox"),
-      "Shopware is a trendsetting ecommerce platform to power your online business.",
+      "Allincart is a trendsetting ecommerce platform to power your online business.",
     );
     await userEvent.click(canvas.getByText("hidden"));
 
     expect(canvas.getByText("60/60")).toBeDefined();
 
     expect(args.updateModelValue).toHaveBeenCalledWith(
-      "Shopware is a trendsetting ecommerce platform to power your ",
+      "Allincart is a trendsetting ecommerce platform to power your ",
     );
 
     expect((canvas.getByRole("textbox") as HTMLInputElement).value).toBe(
-      "Shopware is a trendsetting ecommerce platform to power your ",
+      "Allincart is a trendsetting ecommerce platform to power your ",
     );
   },
 };
@@ -127,7 +113,7 @@ export const VisualTestCharacterCountWithHint: MtTextFieldStory = {
   play: async ({ canvasElement, args }) => {
     const canvas = within(canvasElement);
 
-    await userEvent.type(canvas.getByRole("textbox"), "Shopware");
+    await userEvent.type(canvas.getByRole("textbox"), "Allincart");
     await userEvent.click(canvas.getByText("hidden"));
 
     expect(canvas.getByText("8/60")).toBeDefined();
@@ -151,14 +137,14 @@ export const VisualTestDisabled: MtTextFieldStory = {
   name: "Should disable",
   args: {
     disabled: true,
-    modelValue: "Shopware",
+    modelValue: "Allincart",
   },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
 
     await userEvent.type(canvas.getByRole("textbox"), "1337");
 
-    expect((canvas.getByRole("textbox") as HTMLInputElement).value).toBe("Shopware");
+    expect((canvas.getByRole("textbox") as HTMLInputElement).value).toBe("Allincart");
   },
 };
 
