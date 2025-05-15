@@ -1,5 +1,20 @@
 # Changelog
 
+## 4.11.1
+
+### Patch Changes
+
+- f41a3b2: Emit a blur event when blurring the `mt-text-field`
+- c571e76: Style icons in mt-select to work in dark mode
+- a5af0fd: allow setting icon size via style prop
+
+  ```vue
+  <mt-icon name="3d" :style="{ width: '20px', height: '20px' }" />
+
+  <!-- Shorter way -->
+  <mt-icon name="3d" size="20px" />
+  ```
+
 ## 4.11.0
 
 ### Minor Changes

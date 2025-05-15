@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.9.2
+
+### Patch Changes
+
+- Updated dependencies [f41a3b2]
+- Updated dependencies [c571e76]
+- Updated dependencies [a5af0fd]
+  - @allincart-ag/meteor-component-library@4.11.1
+
 ## 5.9.1
 
 ### Patch Changes
