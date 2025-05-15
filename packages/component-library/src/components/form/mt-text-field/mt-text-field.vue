@@ -26,7 +26,7 @@
 
     <template #element="{ identification }">
       <input
-        :id="createInputId(identification)"
+        v-bind="$attrs"
         type="text"
         :name="identification"
         :disabled="hasDisabledInput"
@@ -260,8 +260,7 @@ export default defineComponent({
       this.$emit("update:modelValue", event.target.value);
     },
 
-    handleFocus(event: Event): void {
-      this.$emit("focus", event);
+    handleFocus(): void {
       this.setFocusClass();
     },
 
