@@ -1,5 +1,21 @@
 # Changelog
 
+## 6.0.0
+
+### Major Changes
+
+- cd69b02: Add `uiMediaModalOpen` method
+  Add `media` option for parameter `entity`, `view` option for parameter `view` of actionButton method
+
+### Minor Changes
+
+- 3ed620d: Add textContent property to modal triggering instead of only locationId
+
+### Patch Changes
+
+- Updated dependencies [e7ddea0]
+  - @allincart-ag/meteor-component-library@4.11.2
+
 ## 5.9.2
 
 ### Patch Changes

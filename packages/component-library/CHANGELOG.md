@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.11.2
+
+### Patch Changes
+
+- e7ddea0: Add opacity to shadow token
+
 ## 4.11.1
 
 ### Patch Changes
