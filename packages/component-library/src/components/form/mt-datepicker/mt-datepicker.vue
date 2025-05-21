@@ -60,7 +60,7 @@
       <!-- @deprecated tag:v5 remove field-hint class -->
       <div class="mt-datepicker__hint field-hint" data-test="time-zone-hint" :style="{ gridArea: 'hint' }">
         <mt-icon name="solid-clock" class="mt-datepicker__hint-icon" />
-        <p>{{ timeZone || "UTC" }}</p>
+        <p>{{ timeZone || "Asia/Shanghai" }}</p>
       </div>
     </template>
   </div>
@@ -241,7 +241,7 @@ export default defineComponent({
           return;
         }
 
-        // Handle 'datetime' type: Convert to UTC
+        // Handle 'datetime' type: Convert to Asia/Shanghai
         const isoValue = this.convertDateToIso(newValue);
         this.$emit("update:modelValue", isoValue);
       },
