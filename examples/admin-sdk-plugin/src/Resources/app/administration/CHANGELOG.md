@@ -1,5 +1,15 @@
 # administration
 
+## 1.0.21
+
+### Patch Changes
+
+- Updated dependencies [e7ddea0]
+- Updated dependencies [3ed620d]
+- Updated dependencies [cd69b02]
+  - @allincart-ag/meteor-component-library@4.11.2
+  - @allincart-ag/meteor-admin-sdk@6.0.0
+
 ## 1.0.20
 
 ### Patch Changes
