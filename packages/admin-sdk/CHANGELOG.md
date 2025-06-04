@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.0.1
+
+### Patch Changes
+
+- Updated dependencies [5ed5509]
+  - @allincart-ag/meteor-component-library@4.12.0
+
 ## 6.0.0
 
 ### Major Changes
