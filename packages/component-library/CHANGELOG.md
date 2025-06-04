@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.12.1
+
+### Patch Changes
+
+- 7d4f99a: Set default variant of `mt-button` to `secondary`
+
 ## 4.12.0
 
 ### Minor Changes
