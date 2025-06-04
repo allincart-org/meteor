@@ -374,7 +374,14 @@ export default defineComponent({
           .filter((item) => value.includes(this.getKey(item, this.valueProperty)))
           .slice(0, this.limit);
       }
-
+      if (this.currentValue && typeof this.currentValue === "object") {
+        const property = this.valueProperty || ("id" in this.currentValue ? "id" : undefined);
+        if (property) {
+          return this.options.filter(
+            (item) => this.getKey(item, property) === this.getKey(this.currentValue, property),
+          );
+        }
+      }
       return this.options.filter((item) => this.isSelected(item)).slice(0, this.limit);
     },
 
