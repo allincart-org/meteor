@@ -6,7 +6,7 @@ import type {
   contextEnvironment,
   contextLocale,
   contextCurrency,
-  contextShopwareVersion,
+  contextAllincartVersion,
   contextAppInformation,
   contextModuleInformation,
   contextUserInformation,
@@ -44,10 +44,10 @@ import type {
 import type { iapCheckout } from './iap';
 
 /**
- * Contains all shopware send types.
+ * Contains all allincart send types.
  * @internal
  */
-export interface ShopwareMessageTypes {
+export interface AllincartMessageTypes {
   notificationDispatch: notificationDispatch,
   toastDispatch: toastDispatch,
   windowRedirect: windowRedirect,
@@ -58,7 +58,7 @@ export interface ShopwareMessageTypes {
   contextEnvironment: contextEnvironment,
   contextLocale: contextLocale,
   contextCurrency: contextCurrency,
-  contextShopwareVersion: contextShopwareVersion,
+  contextAllincartVersion: contextAllincartVersion,
   contextUserInformation: contextUserInformation,
   contextUserTimezone: contextUserTimezone,
   contextAppInformation: contextAppInformation,

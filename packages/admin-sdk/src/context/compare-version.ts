@@ -4,20 +4,20 @@ import valid from 'semver/functions/valid';
 
 type Comparator = '=' | '!=' | '<' | '>' | '<=' | '>=';
 
-export default function getCompareIsShopwareVersion(
-  getShopwareVersion: () => Promise<string>
+export default function getCompareIsAllincartVersion(
+  getAllincartVersion: () => Promise<string>
 ) {
   return async (comparator: Comparator, versionToCompare: string): Promise<boolean> => {
-    const shopwareVersion = await getShopwareVersion();
-    const shopwareSemverVersion = convertToSemver(shopwareVersion);
+    const allincartVersion = await getAllincartVersion();
+    const allincartSemverVersion = convertToSemver(allincartVersion);
     const versionSemverToCompare = convertToSemver(versionToCompare);
 
-    return semverCmp(shopwareSemverVersion, comparator, versionSemverToCompare);
+    return semverCmp(allincartSemverVersion, comparator, versionSemverToCompare);
   };
 }
 
 function convertToSemver(version: string): string {
-  // Test if version is a 4 digit shopware version with leading 6.
+  // Test if version is a 4 digit allincart version with leading 6.
   if (!valid(version) && /6\.[\d]+\.[\d]+\.[\d]+/.test(version)) {
     return version.substring(2);
   }
