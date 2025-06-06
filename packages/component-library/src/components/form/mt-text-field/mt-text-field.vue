@@ -26,6 +26,7 @@
 
     <template #element="{ identification }">
       <input
+        :id="createInputId(identification)"
         type="text"
         :name="identification"
         :disabled="hasDisabledInput"
