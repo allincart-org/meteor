@@ -1,5 +1,12 @@
 # administration
 
+## 1.0.25
+
+### Patch Changes
+
+- Updated dependencies [24b6537]
+  - @allincart-ag/meteor-admin-sdk@6.0.4
+
 ## 1.0.24
 
 ### Patch Changes

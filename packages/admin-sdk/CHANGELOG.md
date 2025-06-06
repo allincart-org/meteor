@@ -1,5 +1,11 @@
 # Changelog
 
+## 6.0.4
+
+### Patch Changes
+
+- 24b6537: fix: get verison name
+
 ## 6.0.3
 
 ### Patch Changes
