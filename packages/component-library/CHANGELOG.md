@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.12.2
+
+### Patch Changes
+
+- sync component library
+
 ## 4.12.1
 
 ### Patch Changes

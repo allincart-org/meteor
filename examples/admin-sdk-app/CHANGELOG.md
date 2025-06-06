@@ -1,5 +1,13 @@
 # meteor-admin-sdk-app
 
+## 1.0.46
+
+### Patch Changes
+
+- Updated dependencies
+  - @allincart-ag/meteor-component-library@4.12.2
+  - @allincart-ag/meteor-admin-sdk@6.0.3
+
 ## 1.0.45
 
 ### Patch Changes
