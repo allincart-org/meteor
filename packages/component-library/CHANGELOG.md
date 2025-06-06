@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.12.3
+
+### Patch Changes
+
+- bfb5808: fix : mt-avater components
+
 ## 4.12.2
 
 ### Patch Changes

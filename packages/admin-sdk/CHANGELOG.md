@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.0.5
+
+### Patch Changes
+
+- bfb5808: fix : mt-avater components
+- Updated dependencies [bfb5808]
+  - @allincart-ag/meteor-component-library@4.12.3
+
 ## 6.0.4
 
 ### Patch Changes
