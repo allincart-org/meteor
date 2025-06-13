@@ -113,7 +113,7 @@
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-storybook": "^0.11.3",
+    "eslint-plugin-storybook": "^9.0.9",
     "eslint-plugin-vitest": "^0.5.4",
     "eslint-plugin-vue": "^9.32.0",
     "flush-promises": "^1.0.2",
