@@ -1,5 +1,12 @@
 # administration
 
+## 1.0.27
+
+### Patch Changes
+
+- Updated dependencies
+  - @allincart-ag/meteor-component-library@4.13.2
+
 ## 1.0.26
 
 ### Patch Changes
