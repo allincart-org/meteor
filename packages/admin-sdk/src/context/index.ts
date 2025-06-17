@@ -87,7 +87,7 @@ export type contextUserInformation = {
     email: string,
     name: string,
     id: string,
-    phoneNUmber: string,
+    phoneNumber: string,
     localeId: string,
     title: string,
     type: string,

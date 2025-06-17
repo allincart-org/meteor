@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.13.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @allincart-ag/meteor-admin-sdk@6.1.1
+
 ## 4.13.2
 
 ### Patch Changes
